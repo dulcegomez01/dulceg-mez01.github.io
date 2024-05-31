@@ -1,0 +1,48 @@
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    transition: all 0.3s ease-in-out;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .btn {
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    background-image: linear-gradient(135deg, #fad8c6ba 0%, #a3cde9 100%);
+    box-shadow: 0 20px 30px -6px rgba(189, 108, 103, 0.263);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 24px;
+    color: #000000;
+  }
+  
+  .btn:hover {
+    transform: translateY(3px);
+    box-shadow: none;
+  }
+  
+  .btn:active {
+    opacity: 0.5;
+  }
+  
+.card {
+    width: 500px;
+    height: 400px;
+    background: rgb(193, 195, 192);
+    border-radius: 10px;
+    transition: border-radius 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    
+.shadow {
+box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                 0 0  0 2px rgb(123, 121, 121),
+                 0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
